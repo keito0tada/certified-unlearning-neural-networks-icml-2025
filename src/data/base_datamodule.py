@@ -128,3 +128,8 @@ class BaseDataModule:
             shuffle=False,
             num_workers=self.num_workers,
         )
+
+class BaseDupDataModule(BaseDataModule):
+    def __init__(self, config, generator, dataset_cls, train_transform, test_transform, dup):
+        self.dup = dup
+        super().__init__(config, generator, dataset_cls, train_transform, test_transform)
