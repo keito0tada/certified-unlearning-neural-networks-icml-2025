@@ -95,7 +95,7 @@ polars==1.25.0
 pooch==1.8.2
 promise==2.3
 propcache==0.3.0
-protobuf==5.29.3
+protobuf
 pyarrow==19.0.1
 pydantic==2.10.6
 pydantic_core==2.27.2
@@ -144,7 +144,7 @@ transformers==4.49.0
 treescope==0.1.9
 triton==3.2.0
 tzdata==2025.1
-wandb==0.19.8
+wandb>=0.22.0
 Werkzeug==3.1.3
 wheel==0.44.0
 wrapt==1.17.2
